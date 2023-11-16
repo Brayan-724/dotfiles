@@ -1,0 +1,212 @@
+format = """
+[](#F02E6E)\
+$directory\
+[ ](#F02E6E)\
+[](#F48FB1)\
+$git_branch\
+$git_status\
+[ ](#F48FB1)\
+[](#3E3859)\
+$c\
+$deno\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$lua\
+$nodejs\
+$nim\
+$rust\
+$scala\
+$docker_context\
+[ ](#3E3859)\
+$cmd_duration
+$character
+"""
+
+[cmd_duration]
+show_milliseconds = true
+min_time = 1_000
+style = 'fg:#DCDFE4'
+format = '[$duration]($style)'
+
+[character]
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
+
+[aws]
+symbol = "  "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[buf]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[c]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[conda]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[dart]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[deno]
+# symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+detect_extensions = []
+
+[directory]
+style = "fg:#100E23 bg:#F02E6E"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " "
+
+[docker_context]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[fossil_branch]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[git_branch]
+symbol = ""
+style = "fg:#100E23 bg:#F48FB1"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "fg:#100E23 bg:#F48FB1"
+format = '[$all_status$ahead_behind ]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[guix_shell]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[haxe]
+symbol = "⌘ "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[hg_branch]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[lua]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[memory_usage]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[meson]
+symbol = "喝 "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[nim]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[nix_shell]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[nodejs]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+detect_extensions = []
+
+[package]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[pijul_channel]
+symbol = "🪺 "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[python]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[rlang]
+symbol = "ﳒ "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#3E3859"
+format = '[ $symbol ($version) ]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'
+
+[spack]
+symbol = "🅢 "
+style = "bg:#3E3859"
+format = '[ $symbol($version) ]($style)'

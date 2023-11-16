@@ -1,0 +1,21 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "create": true,
+        "relink": true
+      }
+    }
+  },
+  {
+    "link": null,
+    "~/.config/starship.toml": {
+      "path": "config/starship.toml"
+    }
+  },
+  {
+    "shell": [
+      "git submodule sync --recursive"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "dotbot-rust"]
+	path = dotbot-rust
+	url = https://github.com/alexcormier/dotbot-rust
+[submodule "config/nvim"]
+	url = https://github.com/Brayan-724/dotfiles-nvim
+	branch = main
