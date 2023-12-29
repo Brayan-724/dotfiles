@@ -1,10 +1,3 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
-source ~/fishrc.fish
-source ~/.config/fish/git-aliases.fish
-
 starship init fish | source
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
@@ -23,3 +16,8 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # Densky
 set --export DENSKY_INSTALL /home/apika/.densky
 fish_add_path $DENSKY_INSTALL/bin
+
+/home/apika/.local/share/rtx/bin/rtx activate fish | source
+
+source ~/fishrc.fish
+source ~/.config/fish/git-aliases.fish

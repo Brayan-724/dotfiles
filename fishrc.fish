@@ -15,8 +15,8 @@ source /home/apika/env.fish
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # RUST
+# fish_add_path /home/apika/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin
 fish_add_path /home/apika/.cargo/bin
-fish_add_path /home/apika/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin
 if type -q sccache
   # export RUSTC_WRAPPER=$(which sccache)
 end
